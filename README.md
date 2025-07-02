@@ -1,0 +1,2 @@
+# Learning Web Development
+This repository contains website files from my early learning days. They were created to meet assignment requirements set by my teacher and are intentionally small and simple. For larger projects, please refer to my other repositories.
