@@ -1,0 +1,2 @@
+# Fundamental Concept Implementations
+This folder contains slightly larger test websites that explore basic web development concepts. While still simple, they are more polished than the smallest exercises in [Basic_concept_demonstrations](../Basic_concept_demonstrations/).
