@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+
+        <link rel="stylesheet" type="text/css" href="CSS/Countries.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="flagAndH1">
+                <a href="index.html" id="flag"><img src="Images/Flag.jpg" alt="Antigua and Barbuda Flag" height="100"></a>
+                <!-- source = https://www.cia.gov/the-world-factbook/static/6c393445654227bb21cf80d2dc732ca9/d786d/AC_001_large.jpg -->
+                <h1>Antigua and Barbuda</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Economy</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <main>
+                <section>
+                    <form action="https://tusprojects.net/wdf-response-A1.php" method="post">
+                        <h2>Contact Us</h2>
+
+                        <div id="contact">
+                            <div class="labels">
+                                <p><label for="firstName">First name: </label></p>
+                                <p><label for="surname">Surname: </label></p>
+                                <p><label for="email">Email: </label></p>
+                            </div>
+
+
+                            <div class="input">
+                                <p><input type="text" name="firstName" id="firstName"></p>
+                                <p><input type="text" name="surname" id="surname"></p>
+                                <p><input type="email" name="email" id="email"></p>
+                            </div>
+                        </div>
+
+                        <fieldset>
+                            <legend>Address information</legend>
+
+                            <div id="address">
+                                <div class="labels">
+                                    <p><label for="street">Street address: </label></p>
+                                    <p><label for="city">City: </label></p>
+                                    <p><label for="county">County: </label></p>
+                                    <p><label for="country">Country: </label></p> 
+                                </div>
+
+                                <div class="input">
+                                    <p><input type="text" name="street" id="street"></p>
+                                    <p><input type="text" name="city" id="city"></p>
+                                    <p><input type="text" name="county" id="county"></p>
+                                    <p><input type="text" name="country" id="country"></p>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Are you an Irish citizens?</legend>
+
+                            <div id="citizens">
+                                <div class="labels">
+                                    <p><label for="yes">Yes </label></p>
+                                    <p><label for="no">No </label></p>
+                                </div>
+
+                                <div class="input">
+                                    <p><label><input type="radio" name="citizen" value="yes" id="yes"></label></p>
+                                    <p><label><input type="radio" name="citizen" value="no" id="no"></label></p>
+                                </div>
+                            </div>
+                            
+                            <!--the lecturer said that i could use explicit association as you can't use flex otherwise so this is the old code implicit version below-->
+                            <!--<ul>
+                                <li><label><input type="radio" name="citizen" value="yes">Yes</label></li>
+                                <li><label><input type="radio" name="citizen" value="no">No</label></li>
+                            </ul>-->
+                        </fieldset>
+
+                        <div id="interestedAndButtons">
+                            <div class="labels">
+                                <p><label for="typeInfo">What type of information are you interested in?</label></p>
+                            </div>
+
+                            <div class="input">
+                                <p>
+                                    <select name="typeInfo" id="typeInfo"> 
+                                        <option value="econ">Economy</option>
+                                        <option value="en"> Energy</option>
+                                        <option value="env">Environment</option>
+                                        <option value="military">Military</option>
+                                        <option value="transp">Transportation</option>
+                                    </select>
+                                </p>
+                                
+                                <p class="buttons"><input type="submit"></p>
+                                <p class="buttons"><input type="reset"></p>
+                            </div>
+                        </div>
+                        
+                        <input type="hidden" name="code" value="ref123">
+                    </form>
+                </section>
+            </main>
+        </div>
+           
+        <footer>
+            <hr>
+            
+            <p>This page was created by Gavin Roche.</p>
+            
+            <address>
+                <p>Email: <a href="mailto:example@student.tus.ie" id="myEmail">Example@student.tus.ie</a></p>
+            </address>
+        </footer>
+    </body>
+</html>
