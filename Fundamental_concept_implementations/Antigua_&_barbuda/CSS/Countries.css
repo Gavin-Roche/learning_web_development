@@ -1,0 +1,96 @@
+body {font-family: Calibri, sans-serif;
+border: 3px solid #0C398D;}
+/* this is an example of a tag selector */
+
+.container {width: 80%;
+margin: auto;
+border: 1px solid black;
+background-color: #B9CFF9;
+padding: 1em 4em;}
+/* this is an example of a class selector */
+
+#ageStructureFirstRow {text-align: center;}
+
+/* this is an example of a ID selector */
+
+nav li {display: inline-block;
+margin-right: 3em;
+height: 2em;
+margin-top: 1em;}
+/* this is an example of a compound selector */
+
+th, td {border: 1px solid black;
+padding: 0.25em;
+width: 10em;}
+/* this is an example of a group selector */
+
+.buttons input {padding: 0.1em 2em;
+background-color: #729FF3;
+border-radius: 5px;}
+/* this is an example of padding */
+
+#flag {margin-left: 6em;
+margin-top: 2em;
+flex: 37%;}
+/* this is an example of margin */
+
+table {border: 1px solid black;
+width: 35em;
+text-align: left;
+border-collapse: collapse;}
+/* this is an example of border */
+
+th {background-color: #0C398D;
+color: white;}
+
+tr:hover {background-color: #4D86EF;}
+
+tr {background-color: #7DA6F2;}
+
+nav ul {background-color: #0C398D;
+list-style-type: none;}
+
+footer {background-color: #0C398D;
+color: white;
+text-align: center;}
+
+#column1, #column2 {flex: 50%;}
+
+#contact, #address, #interestedAndButtons , #citizens, #society, #flagAndH1 {display: flex;}
+
+h1 {flex: 63%;
+margin-top: 2.25em;}
+
+.labels {flex: 30%;
+text-align: right;
+margin-right: 0.5em;}
+
+.input {flex: 70%;}
+
+.input input[type=text], input[type=email], #typeInfo {width: 30em;
+border-radius: 5px;}
+
+h2 {text-align: center;}
+
+fieldset {margin-left: 10em;
+margin-right: 10em;
+padding-right: 15em;}
+
+.buttons input:hover {background-color: #05193D;
+cursor: pointer;
+color: white;
+border-radius: 5px;}
+
+.buttons {display: inline-block;
+margin-right: 0.5em;}
+
+input[type=radio] ul {list-style-type: none;}
+
+nav a {text-decoration: none;
+color: white;}
+
+#myEmail {color: white;}
+
+#pictures {display: flex; justify-content: space-evenly;}
+
+#pictures img {max-width: 100%;}
