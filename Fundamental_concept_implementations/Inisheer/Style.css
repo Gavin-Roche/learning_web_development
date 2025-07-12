@@ -1,0 +1,85 @@
+#container {width: 80%;
+background-color: #dfecec;
+margin: auto;}
+
+header {background-color: white;}
+
+body {font-family: Calibri, sans-serif;
+font-size: 1em;
+color: darkslategray;}
+
+h1, h2, legend, input[type=submit], section h3, footer h3 {font-family: Segoe Print, Calibri, sans-serif;}
+
+#globalNav {display: flex;}
+
+#logo {flex: 30%;}
+
+#menuBar {flex: 70%;}
+
+#menuBar a {font-size: 1.3em;
+color: #132020;
+font-family: Segoe Print, Calibri, sans-serif; text-decoration: none;}
+
+#menuBar ul {list-style-type: none; text-align: right;}
+
+#menuBar li {display: inline-block; margin-left: 2em;}
+
+#heroImg img {width: 100%;}
+
+main {margin-bottom: 1em;
+display: flex;}
+
+#rightSection, #leftSection {flex: 46%; padding: 1em; margin: 0em 2em;}
+
+h1 {font-size: 1.6em;
+color: #132020;}
+
+h2 {font-size: 1.4em;
+color: #264040;}
+
+#rightSection h3 {font-size: 1.1em;
+color: #192C40;}
+
+.place {padding-bottom: 1em;}
+
+.place img {float: left;
+margin-right: 1em;}
+
+footer {display: flex;
+background-color: #192C40;
+font-size: 0.9em;
+color: white;}
+
+footer h3 {color: white;}
+
+.footerDiv {flex: 28%;
+padding-left: 5em;}
+
+footer a {color: white;
+text-decoration: none;}
+
+legend {font-weight: bold;
+font-size: 1.2em;}
+
+#textBoxes {display: flex;}
+
+#label {flex: 30%;
+text-align: right;
+padding-right: 0.5em;}
+
+#input {flex: 70%;}
+
+#inside {margin: 0em 3.5em;
+border-color: lightgrey;}
+
+#outside {width: 80%;
+margin: auto;
+background-color:  #F5F5F5;
+border-color: darkgrey;
+border-radius: 5px;}
+
+input[type=submit] {margin-left: 5em;}
+
+address p {line-height: 0em;}
+
+#phone {padding-top: 1em;}
