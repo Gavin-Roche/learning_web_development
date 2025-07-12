@@ -1,0 +1,81 @@
+#container {width: 80%;
+margin: auto;
+background-color: #FFB365;}
+
+body{font-family: Calibri sans-serif;
+font-size: 1em;}
+
+#globalNav {display: flex;}
+
+#logo, #menuBar {flex: 50%;}
+
+#globalNav a {font-size: 1.2em;
+color: #2e3963;}
+
+#menuBar li {display: inline-block;
+padding-right: 2em;}
+
+#menuBar a {text-decoration: none;}
+
+#menuBar ul {list-style-type: none;
+text-align: right;}
+
+#heroImg img {max-width: 100%;}
+
+h1 {font-size: 2em;}
+
+h1, h2 {color: #2e3963;}
+
+h2, h3 {font-size: 1.5em;}
+
+h3 {color: white;}
+
+main {display: flex;}
+
+#leftSection, #rightAside {flex: 46%;
+padding: 0% 2% 3% 2%;}
+
+footer {display: flex;
+background-color: #192C40;
+color: white;
+font-size: 0.8em;
+height: 16em;}
+
+.footerCol {flex: 28%;
+padding-left: 3em;}
+
+.footerCol a {color: white;
+text-decoration: none;}
+
+fieldset {display: flex;
+background-color: #65B1FF;
+border-radius: 5px}
+
+#labels {flex: 30%;
+text-align: right;
+padding-right: 2em;
+margin-bottom: 3em;}
+
+#inputs {flex: 70%;}
+
+.buttons {display: inline-block;
+margin-right: 2em;}
+
+.buttons input {background-color: #00303F;
+padding: 0.5em 2em;
+color: white;
+border-radius: 5px}
+
+.sight {display: inline-block;}
+
+input[type=text], input[type=email] {width: 18em;}
+
+legend {font-weight: bold;}
+
+.contact {list-style-type: none}
+
+.labels {margin-bottom: 1.2em;}
+
+.labels2 {margin-bottom: 2em;}
+
+#follow {margin-right: 3em;}
