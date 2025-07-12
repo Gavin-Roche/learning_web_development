@@ -1,0 +1,2 @@
+# Old Website Design
+This is how my website design started before I decided to rebuild it from scratch. The newer version is in a separate repository. This folder shows the earlier layout and structure I was working with while still learning.
