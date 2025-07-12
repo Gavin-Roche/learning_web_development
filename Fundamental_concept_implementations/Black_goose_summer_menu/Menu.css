@@ -1,0 +1,30 @@
+body{font-family: Georgia ,sans-serif;
+    font-size: medium; line-height: 175%}
+        
+h1{font-size: 1.5em; color: purple;}
+        
+dt{font-weight: bold;}
+        
+strong{font-style: italic;}
+        
+h2{font-family: Georgia; font-size: 1em; text-transform: uppercase; letter-spacing: 1em; color: purple}
+        
+dt strong{color: maroon;}
+        
+header p{font-style: italic; color: gray;}
+        
+.price{font-style: italic; font-family: Georgia}
+    
+.label{font-variant: small-caps; font-weight: bold;}
+        
+.warning{font-size: small; color: red;}
+        
+header, h2, #appetizers p, #entrees p{text-align: center;}
+        
+#appetizers p, #entrees p{font-style: italic;}
+        
+dt{color: olive;}
+        
+div{width: 80%; margin: auto; background-color: white; padding: 1em; border-style: solid; border-color: purple;}
+        
+body{background-color: #f9e6ff}
