@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Munster Dolphin Society</title>
+        <link rel="stylesheet" type="text/css" href="Dolphin.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+                <div id="globalNav">
+                    <div id="logo">
+                        <a href="index.html"><img src="Images/Logo.png" alt="logo"></a> 
+                    </div>
+                        <nav id="menuBar">
+                            <ul>
+                                <li><a href="dolphin.html">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Conservation</a></li>
+                                <li><a href="#">Donate</a></li>
+                            </ul>
+                        </nav>
+                </div>
+
+                <div id="heroImg">
+                    <img src="Images/Dolphins.jpg" alt="dolphin">
+                </div>
+            </header>
+
+            <main>
+                <section id="leftSection">
+                    <h1>MDS - What we do</h1>
+
+                    <p>MSD was founded in 2010 by a group of passionate marine enthusiasts from a diverse range of backgrounds. 
+                    We are a non-profit organisation that promotes the research and conservation of the dolphin population 
+                    in Irish waters. We rely solely on grants, fund raising and public donations.</p>
+
+                    <p>We work with local communities both at home and abroad to protect these amazing creatures and the places 
+                    where they live. Our Coastwatch programme allows community volunteers to collect important sightings data
+                    from around the Irish coastline. Our latest research has led to a proposal to create a marine protected 
+                    area off the coast of Kerry.</p>
+
+                    <p>We are also involved in the fight against plastic and pollution to create healthy seas. We are working
+                    closely with both the Irish and UK governments to protect dolphins and their habitats. We continue to raise 
+                    awareness around the continued contamination of our seas from dangerous chemicals such as PCBs
+                    (PolyChlorinated Biphenyls). PCBs build up in the food chain and become toxic to top predators such as dolphins.</p>
+                </section>
+
+                <aside id="rightAside">
+                    <h2>Record a dolphin sighting</h2>
+
+                    <form action="https://tusprojects.net/wdf-dolphin-response.php" method="post">
+                        <fieldset>
+                            <legend>Enter details here</legend>
+
+                            <div id="labels">
+                                <p class="labels"><label for="fullname">Full name</label></p>
+                                <p class="labels"><label for="telephone">Telephone</label></p>
+                                <p class="labels"><label for="email">Email</label></p>
+                                <p class="labels"><label for="date">Date</label></p>
+                                <p class="labels"><label for="location">Location</label></p>
+                                <p class="labels2"><label for="county">County</label></p>
+                                <p class="labels2"><label for="land">Sighting</label></p>
+                                <p><label for="details">Details</label></p>
+                            </div>
+
+                            <div id="inputs">
+                                <p><input type="text" name="fullname" id="fullname"></p>
+                                <p><input type="text" name="telephone" id="telephone"></p>
+                                <p><input type="email" name="email" id="email"></p>
+                                <p><input type="date" name="date" id="date"></p>
+                                <p><input type="text" name="location" id="location">
+
+                                <p>
+                                    <select name="county" id="county">
+                                        <option>Clare</option>
+                                        <option>Cork</option>
+                                        <option>Kerry</option>
+                                        <option>Limerick</option>
+                                        <option>Waterford</option>
+                                    </select>
+                                </p>
+                                
+                                <div id="sighting">
+                                    <p class="sight"><input type="radio" name="sighting" value="land" id="land"><label for="land">Land-based</label></p>
+                                    <p class="sight"><input type="radio" name="sighting" value="boat" id="boat"><label for="boat">Boat-based</label></p>
+                                </div>
+
+                                <p><textarea cols="30" rows="4" name="details" id="details"></textarea></p>
+
+                                <p class="buttons"><input type="submit"></p>
+                                <p class="buttons"><input type="reset"></p>
+
+                            </div> 
+                        </fieldset>
+                    </form>
+                </aside>
+            </main>
+
+            <footer>
+                <div class="footerCol">
+                    <ul class="contact">
+                        <li><h3>CONTACT US</h3></li>
+                        <li><strong>Munster Dolphin Society</strong></li>
+                        <li>Moylish</li>
+                        <li>Limerick</li>
+                        <li>Ireland</li>
+                    </ul>
+
+                    <ul class="contact">
+                        <li>Phone: +353 (0) 61 293000</li>
+                        <li>Email:<a href="mailto:info@mds.ie">info@mds.ie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footerCol">
+                    <h3>USEFUL LINKS</h3>
+                        <ul>
+                        <li><a href="https://www.iwdg.ie" target="_blank">Irish Whale and Dolphin Group</a></li>
+                        <li><a href="http://www.whalewatchwestcork.com" target="_blank">Whale Watch West Cork</a></li>
+                        <li><a href="https://www.dingledolphin.com" target="_blank">Dingle Dolphin Tours</a></li>
+                        <li><a href="https://www.nationalgeographic.com/animals/mammals/group/dolphins" target="_blank">Dolphin Facts - National Geographic</a></li>
+                        </ul>
+                </div>
+
+                <div class="footerCol" id="follow">
+                    <h3>FOLLOW US</h3>
+                    <p>
+                        <a href="https://twitter.com/iwdgnews"><img src="Images/Twitter.png" alt="twitter"></a>
+                        <a href="https://www.facebook.com/IrishWhaleandDolphinGroup"><img src="Images/Facebook.png" alt="facebook"></a>
+                        <a href="https://www.youtube.com/watch?v=e6guchQqzfM"><img src="Images/Youtube.png" alt="youtube"></a>
+                        <a href="https://www.instagram.com/irishwhaleanddolphingroup"><img src="Images/Instagram.png" alt="instagram"></a> 
+                    </p>
+
+                    <hr>
+
+                    <p>©2020 | Munster Dolphin Society</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
